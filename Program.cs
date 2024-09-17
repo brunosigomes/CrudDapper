@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IUsuarioInterface, UsarioService>();
+builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 
 builder.Services.AddAutoMapper(typeof(Program));
 

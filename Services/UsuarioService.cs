@@ -6,11 +6,11 @@ using System.Data.SqlClient;
 
 namespace CrudDapper.Services
 {
-    public class UsarioService : IUsuarioInterface
+    public class UsuarioService : IUsuarioInterface
     {
         private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
-        public UsarioService(IConfiguration configuration, IMapper mapper)
+        public UsuarioService(IConfiguration configuration, IMapper mapper)
         {
             _configuration = configuration;
             _mapper = mapper;
